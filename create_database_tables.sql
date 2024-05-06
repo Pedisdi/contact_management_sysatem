@@ -1,0 +1,2 @@
+DROP DATABASE contact_management_system;
+CREATE DATABASE contact_management_system;

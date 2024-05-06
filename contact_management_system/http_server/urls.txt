@@ -1,0 +1,28 @@
+-------------------------user------------------
+POST
+/user/register
+data = {username:pedi, password:sardari}
+
+/user/login
+data = {username:pedi, password:sardari}
+
+GET
+/user --> user list
+
+
+
+-------------------------contact------------------
+POST
+/contact/add
+data = { "name": "pedi", "number": "021888664654"}
+
+/contact/update
+data = { "id": "" }
+
+/contact/delete
+data = {"id"}
+
+GET
+/contact --> all contacts
+/contact?name=armaqan --> contact armaqan
+
